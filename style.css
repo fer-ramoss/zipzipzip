@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* style.css */
+#main-container {
+  border: 1px solid black;
+  /* Uma borda sólida azul */
+  padding: 20px;
+  /* Preenchimento em todas as direções */
+  margin: 20px auto;
+  /* Margem superior e inferior, e centraliza na horizontal */
+  max-width: 600px;
+  /* Uma largura máxima para não ficar muito largo em telas grandes */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  background-color: #f0f0f0;
+  /* Um leve fundo cinza */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Sombra suave para dar profundidade */
+}
+
+#main-container {
+  position: relative;
+  /* Outros estilos */
+}
+
+
+#yesButton {
+  background-color: green;
+}
+
+#noButton {
+  background-color: red;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilização adicional pode ser adicionada conforme necessário */
